@@ -2,12 +2,23 @@
     margin-left: 21%;
 } */
 
-
+.content{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/team.png");
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
 
 
 
 @media screen and (max-width:566px) {
     input.input.input-bordered.none.rounded-full.w-24.md\:w-auto {
         display: none;
+    }
+    .content{
+        height: 100%;
     }
 }
