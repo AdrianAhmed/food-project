@@ -1,6 +1,18 @@
-/* a.text-3xl.flex-1.font-bold {
-    margin-left: 21%;
-} */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+.navbar-center.hidden.lg\:flex.justify-start.items-center {
+    width: 40%;
+}
+.flex.gap-4.ml-10 {
+    width: 40%;
+}
 
 .content{
     background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("images/team.png");
@@ -20,5 +32,18 @@
     }
     .content{
         height: 100%;
+    }
+    .navbar-center{
+       flex-direction: row-reverse;
+    }
+    .navbar{
+        flex-direction: row-reverse;
+     }
+
+     .none.md\:block {
+        display: none;
+    }
+    .flex.gap-4.ml-10 {
+        width: 60%;
     }
 }

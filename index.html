@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google font cdn link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700;1,900&family=Manrope:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -15,7 +19,7 @@
 </head>
 <body>
     <header class=" container max-w-screen-xl m-auto">
-        <div class="navbar bg-[#F85559] rounded-full px-10 flex justify-between">
+        <div class="navbar bg-[#F85559] rounded-full px-3 md:flex justify-between">
             <div class="">
               
               <div class="dropdown">
@@ -31,7 +35,7 @@
               </div>
               <!-- <a class="text-3xl font-bold">Bike Dekho</a> -->
             </div>
-            <div class="navbar-center hidden lg:flex justify-start items-center">
+            <div class="navbar-center hidden md:flex justify-start items-center">
               <ul class="menu menu-horizontal px-1 text-white text-lg">
                 <li><a>Home</a></li>
                 <li> <a>About</a> </li>
@@ -43,9 +47,11 @@
               <img src="images/logo.png" alt="">
               <a class="text-xl md:text-3xl flex-1 font-bold text-white">Fruit Burst </a>
             </div>
-            <div class="">
-                <div class="form-control rounded-full none">
-                    <input type="text" placeholder="Search" class="input input-bordered none rounded-full w-24 md:w-auto" />
+            <div class="none md:block">
+                <div class="form-control rounded-full none relative">
+                    <input type="text" placeholder="Search here" class="input input-bordered none rounded-full w-24 md:w-auto" />
+                    <i class="fa-solid fa-magnifying-glass absolute right-3 top-4"></i>
+
                   </div>
             </div>
           </div>
@@ -55,7 +61,7 @@
             <div class="carousel w-full mt-8">
               <div id="slide1" class="carousel-item relative w-full relative max-h-full">
 
-                <div class="absolute top-6 left-1/2 md:top-1/3 -translate-x-1/2">
+                <div class="absolute top-10 left-1/2 md:top-1/3 -translate-x-1/2">
                   <h1 class=" text-3xl md:text-5xl text-white text-center font-extrabold mb-4">Exotic tastes at your <br> doorstep</h1>
                   <p class="text-white text-lg">We supply highly quality organic products</p>
                   <button class="btn bg-[#F85559] text-center m-auto mt-5 flex justify-center border-none text-white hover:text-black">Shop Now</button>
