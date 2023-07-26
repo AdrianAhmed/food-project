@@ -1,0 +1,13 @@
+/* a.text-3xl.flex-1.font-bold {
+    margin-left: 21%;
+} */
+
+
+
+
+
+@media screen and (max-width:566px) {
+    input.input.input-bordered.none.rounded-full.w-24.md\:w-auto {
+        display: none;
+    }
+}
